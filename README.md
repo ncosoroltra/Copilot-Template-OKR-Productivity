@@ -7,11 +7,6 @@ Welcome to the PowerBI Automation Toolkit repository! This toolkit streamlines v
 1. [Requirements](#requirements)
 2. [Summarization](#summarization)
 3. [Sentiment Analysis](#sentiment-analysis)
-4. [Update Report from GitHub](#update-report-from-github)
-5. [Import Weekly Survey Data to PowerBI](#import-weekly-survey-data-to-powerbi)
-6. [Additional Tips](#additional-tips)
-7. [Contributing](#contributing)
-8. [License](#license)
 
 ## Requirements
 
@@ -53,6 +48,7 @@ ID
 Start Time
 End Time
 Additional Comments
+
 Input File Path: C:\{your-folder-name}\Sample-Report-Refresh-PowerBI\Input files\Input-Feedback-script.csv
 
 To import data correctly into PowerBI, perform a "Save As" on the generated .csv file with UTF-8 format.
@@ -65,3 +61,5 @@ Update Feedback and Sentiment Analysis in PowerBI
 - Click on Close & Apply.
 
 By following these steps, you can keep your PowerBI report up-to-date with sentiment analysis results.
+
+For more detailed information and step-by-step instructions, please refer to the attached Readme file in PDF
