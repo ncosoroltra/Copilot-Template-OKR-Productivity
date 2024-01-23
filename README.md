@@ -1,6 +1,6 @@
+# PowerBI Automation Toolkit 
 # Copilot-Template-OKR-Productivity
 
-PowerBI Automation Toolkit
 Welcome to the PowerBI Automation Toolkit repository! This toolkit streamlines various tasks related to PowerBI reporting, including sentiment analysis, summarization, and GitHub report updates. Below is a guide on how to use the scripts and update your PowerBI reports effectively.
 
 Table of Contents
