@@ -31,7 +31,7 @@ The `feedback_summarization.py` script extracts relevant comments from a file na
 
 ```bash
 python feedback_summarization.py
-
+```
 
 
 ## Sentiment Analysis
@@ -47,6 +47,7 @@ To analyze developer comments, we utilize an instance of Azure Language Studio. 
 ```bash
 dotnet run <ruta-fichero-csv>
 Ensure the input file is a comma-delimited .csv containing columns obtained from the .xlsx Forms responses file:
+```
 
 ID
 Start Time
