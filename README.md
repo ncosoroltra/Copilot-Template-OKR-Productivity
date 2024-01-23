@@ -31,3 +31,36 @@ The `feedback_summarization.py` script extracts relevant comments from a file na
 
 ```bash
 python feedback_summarization.py
+
+
+
+## Sentiment Analysis
+
+To analyze developer comments, we utilize an instance of Azure Language Studio. The script reads each line from the input file and returns a score along with a label (negative, positive, neutral).
+
+### Prerequisites
+
+- Install `dotnet`.
+- Navigate to the code folder.
+- Run the following command:
+
+```bash
+dotnet run <ruta-fichero-csv>
+Ensure the input file is a comma-delimited .csv containing columns obtained from the .xlsx Forms responses file:
+
+ID
+Start Time
+End Time
+Additional Comments
+Input File Path: C:\{your-folder-name}\Sample-Report-Refresh-PowerBI\Input files\Input-Feedback-script.csv
+
+To import data correctly into PowerBI, perform a "Save As" on the generated .csv file with UTF-8 format.
+
+Output File: .csv UTF-8 (Adds two columns to the original table)
+
+Update Feedback and Sentiment Analysis in PowerBI
+- Modify the source file of the Sentiment Analysis table with the generated .csv file after running the script.
+- Save the information and return to the report.
+- Click on Close & Apply.
+
+By following these steps, you can keep your PowerBI report up-to-date with sentiment analysis results.
